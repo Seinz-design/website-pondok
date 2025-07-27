@@ -1,0 +1,122 @@
+*, body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.full-web {
+  margin-top: 0%;
+}
+
+.info-top p,
+.info-top a {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: white;
+  text-decoration: none;
+}
+
+.info-top {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  padding-left: 50px;
+  gap: 10px;
+  background-color: #3E5F44;
+  color: white;
+  min-width: 500px;
+  text-decoration: none;
+}
+
+.navbar {
+  color: rgb(62, 95, 68);
+  background-color: #f2f7ef;
+  min-width: 500px;
+}
+
+.navbar-brand {
+  color: #3E5F44;
+  font-weight: 500;
+}
+
+.navbar-brand:hover {
+  color: #3E5F44;
+}
+.nav-link {
+  font-weight: 400 !important;
+  text-decoration: none;
+  color: #3E5F44;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: red;
+  border-radius: 0px 0px 1px 0px !important;
+  border-color: black;
+}
+.content-1{
+  background-image: url("./assets/bg-cuy.jpeg") ;
+  background-size: cover;
+  text-align: center;
+  background-color: #d1e0d5;
+  height: 590px;
+  min-width: 500px;
+  
+}
+
+.d-grid {
+  background-color: aqua;
+  gap: 40px;
+  position:absolute;
+  bottom: 70px;
+  justify-self: center;
+  z-index: 1;
+}
+
+.btn {
+ border-radius: 30px;
+}
+.content-2 {
+  text-align: center;
+  background-color: #d1e0d5;
+  height: 560px;
+  min-width: 500px;
+
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #3E5F44;
+  color: white;
+  height: 300px;
+  min-width: 500px;
+}
+.footer-info {
+  display: grid;
+  grid-template-columns: 200px 350px 300px;
+  justify-content: center;
+  column-gap: 180px;
+
+}
+
+.flex-content {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+}
+
+.flex-content a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-copyright {
+  color: rgba(245, 245, 245, 0.39);
+  font-size: 15px;
+  text-align: center;
+
+}
