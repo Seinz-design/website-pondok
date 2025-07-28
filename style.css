@@ -43,10 +43,6 @@
 .navbar-brand:hover {
   color: #3E5F44;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 76bc45b2276921c9008ab6a9d223784c3ebd49b9
 .nav-link {
   font-weight: 400 !important;
   text-decoration: none;
@@ -59,54 +55,6 @@
   border-radius: 0px 0px 1px 0px !important;
   border-color: black;
 }
-<<<<<<< HEAD
-
-.content-1 {
-  /* background-image: url("./assets/bg-cuy.jpeg"); */
-  background-size: cover;
-  text-align: center;
-  background-color: #d1e0d5;
-  padding-top: 45% !important;
-  height: 590px;
-  min-width: 500px;
-  position: relative;
-  justify-content: center;
-
-}
-
-.d-grid {
-  position: absolute;
-  bottom: 100px;
-  z-index: 1;
-}
-
-.d-grid h1 {
-  font-family: "Playwrite HU", cursive;
-  font-size: 100px;
-  font-weight: bold;
-  position: relative;
-  z-index: 1;
-}
-
-.welcome-1 {
-  display: inline-block;
-  overflow: visible;
-  background: #2A7B9B;
-  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.btn {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  height: 60px;
-  width: 300px;
-  border-radius: 50px;
-}
-
-=======
 .content-1{
   background-image: url("./assets/bg-cuy.jpeg") ;
   background-size: cover;
@@ -129,7 +77,6 @@
 .btn {
  border-radius: 30px;
 }
->>>>>>> 76bc45b2276921c9008ab6a9d223784c3ebd49b9
 .content-2 {
   text-align: center;
   background-color: #d1e0d5;
@@ -137,10 +84,6 @@
   min-width: 500px;
 
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 76bc45b2276921c9008ab6a9d223784c3ebd49b9
 .footer {
   display: flex;
   flex-direction: column;
@@ -150,10 +93,6 @@
   height: 300px;
   min-width: 500px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 76bc45b2276921c9008ab6a9d223784c3ebd49b9
 .footer-info {
   display: grid;
   grid-template-columns: 200px 350px 300px;
