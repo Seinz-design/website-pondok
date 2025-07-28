@@ -1,0 +1,149 @@
+*, body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.full-web {
+  margin-top: 0%;
+}
+
+.info-top p,
+.info-top a {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: white;
+  text-decoration: none;
+}
+
+.info-top {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  padding-left: 50px;
+  gap: 10px;
+  background-color: #3E5F44;
+  color: white;
+  min-width: 500px;
+  text-decoration: none;
+}
+
+.navbar {
+  color: rgb(62, 95, 68);
+  background-color: #f2f7ef;
+  min-width: 500px;
+}
+
+.navbar-brand {
+  color: #3E5F44;
+  font-weight: 500;
+}
+
+.navbar-brand:hover {
+  color: #3E5F44;
+}
+
+.nav-link {
+  font-weight: 400 !important;
+  text-decoration: none;
+  color: #3E5F44;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: red;
+  border-radius: 0px 0px 1px 0px !important;
+  border-color: black;
+}
+
+.content-1 {
+  /* background-image: url("./assets/bg-cuy.jpeg"); */
+  background-size: cover;
+  text-align: center;
+  background-color: #d1e0d5;
+  padding-top: 45% !important;
+  height: 590px;
+  min-width: 500px;
+  position: relative;
+  justify-content: center;
+
+}
+
+.d-grid {
+  position: absolute;
+  bottom: 100px;
+  z-index: 1;
+}
+
+.d-grid h1 {
+  font-family: "Playwrite HU", cursive;
+  font-size: 100px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+}
+
+.welcome-1 {
+  display: inline-block;
+  overflow: visible;
+  background: #2A7B9B;
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  height: 60px;
+  width: 300px;
+  border-radius: 50px;
+}
+
+.content-2 {
+  text-align: center;
+  background-color: #d1e0d5;
+  height: 560px;
+  min-width: 500px;
+
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #3E5F44;
+  color: white;
+  height: 300px;
+  min-width: 500px;
+}
+
+.footer-info {
+  display: grid;
+  grid-template-columns: 200px 350px 300px;
+  justify-content: center;
+  column-gap: 180px;
+
+}
+
+.flex-content {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+}
+
+.flex-content a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-copyright {
+  color: rgba(245, 245, 245, 0.39);
+  font-size: 15px;
+  text-align: center;
+
+}
