@@ -43,7 +43,10 @@
 .navbar-brand:hover {
   color: #3E5F44;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 76bc45b2276921c9008ab6a9d223784c3ebd49b9
 .nav-link {
   font-weight: 400 !important;
   text-decoration: none;
@@ -56,6 +59,7 @@
   border-radius: 0px 0px 1px 0px !important;
   border-color: black;
 }
+<<<<<<< HEAD
 
 .content-1 {
   /* background-image: url("./assets/bg-cuy.jpeg"); */
@@ -102,6 +106,30 @@
   border-radius: 50px;
 }
 
+=======
+.content-1{
+  background-image: url("./assets/bg-cuy.jpeg") ;
+  background-size: cover;
+  text-align: center;
+  background-color: #d1e0d5;
+  height: 590px;
+  min-width: 500px;
+  
+}
+
+.d-grid {
+  background-color: aqua;
+  gap: 40px;
+  position:absolute;
+  bottom: 70px;
+  justify-self: center;
+  z-index: 1;
+}
+
+.btn {
+ border-radius: 30px;
+}
+>>>>>>> 76bc45b2276921c9008ab6a9d223784c3ebd49b9
 .content-2 {
   text-align: center;
   background-color: #d1e0d5;
@@ -109,7 +137,10 @@
   min-width: 500px;
 
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 76bc45b2276921c9008ab6a9d223784c3ebd49b9
 .footer {
   display: flex;
   flex-direction: column;
@@ -119,7 +150,10 @@
   height: 300px;
   min-width: 500px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 76bc45b2276921c9008ab6a9d223784c3ebd49b9
 .footer-info {
   display: grid;
   grid-template-columns: 200px 350px 300px;
