@@ -58,7 +58,7 @@
 }
 
 .content-1 {
-  background-image: url("./assets/bg-cuy.jpeg");
+  /* background-image: url("./assets/bg-cuy.jpeg"); */
   background-size: cover;
   background-color: #d1e0d5;
   text-align: center;
@@ -96,14 +96,24 @@
   overflow: visible;
 }
 
+.keterangan {
+  position: absolute;
+  z-index: 2;
+  bottom: 250px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  color:#3E5F44;
+}
 .pondok-1 {
   position: absolute;
   z-index: 2;
   bottom: 200px;
   font-family: "Roboto", sans-serif;
   font-size: 40px;
-  font-weight: bold;
-  color:white;
+  font-weight: 400;
+  color:#3E5F44;
 }
 .btn {
   width: 300px;
